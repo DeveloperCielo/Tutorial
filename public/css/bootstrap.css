@@ -441,8 +441,6 @@ a:hover {
   float: right;
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
   *zoom: 1;
 }
 .container:before,
@@ -5245,7 +5243,7 @@ button.close {
     float: left;
     margin-left: 30px;
   }
-  
+
   .span12 {
     width: 1170px;
   }
