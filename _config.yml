@@ -1,0 +1,24 @@
+# Setup
+title:        Tutoriais Cielo
+tagline:      Dicas e tutoriais sobre a integração Cielo
+baseurl:      /Tutorial/
+paginate:     1
+permalink:    /:categories/:title
+
+# About/contact
+author:
+  name:       João Batista Neto
+  url:        https://imasters.com.br/
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+paginate:         5
+
+github:
+  repo:           https://github.com/developercielo
+
+
+#Others
+markdown: kramdown
