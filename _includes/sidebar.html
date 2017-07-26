@@ -1,7 +1,7 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
+      <h1 class="no-toc">
         <a href="{{ site.baseurl }}">
           <img src="{{ site.baseurl }}public/images/logo.png" alt="{{ site.title }}" width="355" height="120">
         </a>
@@ -9,5 +9,14 @@
     </div>
 
     <div id="toc"></div>
+
+    {% if page.toc_footers %}
+    <h2 class="no-toc toc-footer-title">Materiais complementares</h2>
+    <ul class="toc-footer">
+        {%for link in page.toc_footers  limit:3%}
+        <li>{{ link }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
   </div>
 </div>

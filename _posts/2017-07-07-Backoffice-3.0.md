@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Backoffice API 3.0 Cielo"
-date:   2017-07-07
-categories:
 ---
 
 # Backoffice API Cielo

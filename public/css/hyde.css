@@ -13,6 +13,38 @@
  * https://github.com/poole/hyde.
  */
 
+ @font-face{
+ 	font-family: 'museo300';
+     src: url('../fonts/museo300-regular-webfont.eot');
+     src: url('../fonts/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/museo300-regular-webfont.woff') format('woff'),
+          url('../fonts/museo300-regular-webfont.ttf') format('truetype'),
+          url('../fonts/museo300-regular-webfont.svg#Museo300') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face{
+ 	font-family: 'museo-sans';
+     src: url('../fonts/museosans_500-webfont.eot');
+     src: url('../fonts/museosans_500-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/museosans_500-webfont.woff') format('woff'),
+          url('../fonts/museosans_500-webfont.ttf') format('truetype'),
+          url('../fonts/museosans_500-webfont.svg#MuseoSans500') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ @font-face {
+     font-family: 'museo700';
+     src: url('../fonts/museo700-regular-webfont.eot');
+     src: url('../fonts/museo700-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('../fonts/museo700-regular-webfont.woff') format('woff'),
+          url('../fonts/museo700-regular-webfont.ttf') format('truetype'),
+          url('../fonts/museo700-regular-webfont.svg#museo700') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
 
 /*
  * Contents
@@ -32,7 +64,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -44,7 +76,6 @@ html {
     font-size: 20px;
   }
 }
-
 
 /*
  * Sidebar
@@ -65,6 +96,7 @@ html {
     left: 0;
     bottom: 0;
     text-align: left;
+    overflow: auto;
   }
 }
 
@@ -96,6 +128,15 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+.toc-footer-title {
+    font-size: 20px;
+    padding-left: 45px;
+    padding-top: 1em;
+    color: #FFFFFF;
+    background: url("../images/materiais-complementares.png") no-repeat 15px 22px;
+    border-top: 1px #4e4f57 dashed;
 }
 
 /* Sticky sidebar
@@ -137,11 +178,10 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 23rem;
+    margin-left: 339px;
     margin-right: 4rem;
   }
 }
-
 
 /*
  * Reverse layout
@@ -248,4 +288,9 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+.sidebar-about h1, .sidebar-about h1 a, .sidebar-about h1 a img {
+    margin: 0;
+    padding: 0;
 }

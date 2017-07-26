@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   {% include head.html %}
-
   <body>
-
     {% include sidebar.html %}
 
     <div class="content container">
@@ -19,8 +16,9 @@
     <script>
     $(function() {
         var toc = $("#toc").tocify({
-            selectors: "h2,h3",
-            hashGenerator: "pretty"
+            selectors: "h1,h2,h3,h4,h5,h6",
+            hashGenerator: "pretty",
+            ignoreSelector: ".no-toc"
         }).data("toc-tocify");
 
         prettyPrint();
