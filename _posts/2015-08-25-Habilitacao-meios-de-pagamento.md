@@ -1,7 +1,8 @@
 ---
 layout: default
 title:  "Habilitação dos Meios de Pagamento"
-
+search: true
+categories:
 toc_footers:
   - <a href='/Checkout-Cielo/'>Manual Checkout Cielo</a>
   - <a href='/Webservice-3.0'>Manual API 3.0</a>

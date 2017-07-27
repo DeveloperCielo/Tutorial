@@ -1,6 +1,11 @@
 ---
-layout: default
+layout: post
 title:  "Backoffice API 3.0 Cielo"
+search: true
+categories:
+toc_footers:
+  - <a href='/Webservice-3.0/'>Integração API Cielo eCommerce</a>
+  - <a href='/Checkout-FAQ/'>Perguntas Frequentes</a>
 ---
 
 # Backoffice API Cielo
@@ -15,8 +20,6 @@ O Backoffice da API Cielo Ecommerce permite que o lojista possa acessar 4 menus 
 2.	**Pesquisa de transações** – Busca todas as transações executadas pela loja e exibe como captura ou cancelar transações
 3.	**Extrato de cobrança** – Detalha os valores cobradas pela a Cielo por cada função utilizada na API Cielo Ecommerce.
 4.	**Configuração da recorrência** – Alterar quantidades de tentativas de execução de recorrências em caso de cartão negado.
-
-
 
 ## Acessando o Backoffice
 
