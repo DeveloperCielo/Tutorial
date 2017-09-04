@@ -14,6 +14,10 @@ O objetivo deste documento é orientar o lojista sobre como acessar Backoffice d
 
 ## Visão Geral
 
+### Visão Geral2
+
+#### Visão Geral3
+
 O Backoffice da API Cielo Ecommerce permite que o lojista possa acessar 4 menus com diferentes funcionalidades:
 
 1.	**Área do desenvolvedor Cielo** – Onde desenvolvedores podem acessar informações como manuais de integração, FAQs e suporte
