@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Backoffice API 3.0 Cielo"
+title:  "Backoffice Checkout Cielo"
 search: true
 categories:
 toc_footers:
