@@ -20,7 +20,7 @@ Para acessar o Backoffice do Checkout Cielo, é necessário que o lojista **[rea
 
 Em seguida é necessário incluir sua Senha:
 
-![Senha Backoffice Cielo](/images/checkout-login-senha.png)
+![Senha Backoffice Cielo](/images/bkocheckout/checkout-login-senha.png)
 
 Na área de “Vendas Online” basta clicar em Checkout Cielo.
 
